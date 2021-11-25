@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/first_fragment">
+
+    <fragment
+        android:id="@+id/first_fragment"
+        android:name="com.navigationcomponenttest.FirstFragment"
+        android:label=""
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_first_fragment_to_second_fragment"
+            app:destination="@id/second_fragment" />
+        <action
+            android:id="@+id/action_first_fragment_to_fourth_fragment"
+            app:destination="@id/fourth_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/second_fragment"
+        android:name="com.navigationcomponenttest.SecondFragment"
+        android:label=""
+        tools:layout="@layout/fragment_second">
+        <action
+            android:id="@+id/action_second_fragment_to_third_fragment"
+            app:destination="@id/third_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/third_fragment"
+        android:name="com.navigationcomponenttest.ThirdFragment"
+        android:label=""
+        tools:layout="@layout/fragment_third"/>
+
+    <fragment
+        android:id="@+id/fourth_fragment"
+        android:name="com.navigationcomponenttest.FourthFragment"
+        android:label=""
+        tools:layout="@layout/fragment_fourth"
+        />
+</navigation>

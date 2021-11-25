@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Navigation Component Test</string>
+    <string name="first_fragment_txt">1</string>
+    <string name="second_fragment_txt">2</string>
+    <string name="third_fragment_txt">3</string>
+    <string name="fourth_fragment_txt">4</string>
+    <string name="next_fragment_button">NEXT FRAGMENT</string>
+    <string name="button_to_fragment_2">GO TO FRAGMENT 2</string>
+    <string name="button_to_fragment_3">GO TO FRAGMENT 3</string>
+    <string name="button_to_fragment_4">GO TO FRAGMENT 4</string>
+</resources>
